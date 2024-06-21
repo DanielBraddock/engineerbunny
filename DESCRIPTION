@@ -9,8 +9,14 @@ License: MIT + file LICENSE
 URL: https://danielbraddock.github.io/engineerbunny/
 Imports:
     data.table,
+    dbplyr,
+    dplyr,
+    dtplyr,
     feather,
-    stringr
+    rlang,
+    stringr,
+    tidyr,
+    tidyselect
 Suggests: 
     testthat (>= 3.0.0)
 Config/testthat/edition: 3
